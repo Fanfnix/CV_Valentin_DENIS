@@ -1,6 +1,5 @@
 @media all and (max-width: 1024px) {
     #section_top, #section_mid, #section_bot {
-        display: flex;
         flex-direction: column;
     }
 

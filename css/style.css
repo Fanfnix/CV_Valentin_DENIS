@@ -80,13 +80,16 @@ header nav a:active {
     justify-content: center;
 }
 
-.container_reseaux img {
-    height: 40px;
-    width: 40px;
+.container_reseaux a {
+    font-size: 40px;
+    color: black;
     margin-left: 5px;
     margin-right: 5px;
-    padding-bottom: 5px;
     border-bottom: 2px solid black;
+}
+
+i:hover {
+    color: rgb(70, 70, 70);
 }
 
 .container_reseaux a {
@@ -142,6 +145,7 @@ main {
     border-left: 2px solid black;
 }
 
+
 #section_top_right {
     display: flex;
     justify-content: space-around;
@@ -151,9 +155,9 @@ main {
 #section_top_right_container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: white;
-    height: 200px;
     border-radius: 15%;
     border: 1px solid black;
 }
@@ -171,6 +175,7 @@ main {
     height: 100px;
     width: 100px;
 }
+
 
 #section_mid_left {
     display: flex;
