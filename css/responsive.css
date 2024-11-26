@@ -1,6 +1,10 @@
 @media all and (max-width: 1024px) {
-    #section_top, #section_mid, #section_bot {
+    #section_top, #section_bot {
         flex-direction: column;
+    }
+
+    #section_mid {
+        flex-direction: column-reverse;
     }
 
     #section_top_left, #section_top_right, #section_mid_left, #section_mid_right, #section_bot_left, #section_bot_right{
