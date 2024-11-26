@@ -57,6 +57,7 @@ header nav a:active {
     background-image: url('../Images/fond_accueil.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 30em;
 }
 
@@ -83,7 +84,7 @@ header nav a:active {
 }
 
 #accueil #container #photo:hover {
-    border-radius: 0%;
+    border-radius: 10%;
     transform: scale(1.15);
 }
 
@@ -130,8 +131,14 @@ main {
     width: 50%;
 }
 
-#section_top_right, #section_mid_left, #section_bot_right {
+#section_top_right, #section_mid_left {
     background-image: url('../Images/fond1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#section_bot_right {
+    background-image: url('../Images/minecraft.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
