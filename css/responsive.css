@@ -1,0 +1,10 @@
+@media all and (max-width: 1024px) {
+    #section_top, #section_mid, #section_bot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section_top_left, #section_top_right, #section_mid_left, #section_mid_right, #section_bot_left, #section_bot_right{
+        width: 100%;
+    }
+}
